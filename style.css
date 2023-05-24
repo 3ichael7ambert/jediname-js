@@ -1,97 +1,88 @@
 body {
-  background-color: black;
-  /* margin:10px auto;*/
-  color: yellow;
-  justify-content: center;
-  font-size: 24px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
-h1 {
-  margin: 10px auto;
-}
-p {
-  marign: 0px auto;
-}
-table {
-  border: 2px solid;
-}
-td {
-  width: 100%;
-  border: 1px solid;
-}
-tr {
-  width: 500px;
-  border: 1px solid;
-}
-input {
-  width: 250px;
-  color: yellow;
-  background-color: black;
-  height: 32px;
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  text-align: right;
-  transition: all 2000ms;
-}
-input:hover {
-  background-color: #333;
-}
-input:focus {
-  background-color: yellow;
-  color: black;
-}
-.centerBtn {
-  color: black;
-  background-color: yellow;
-  border-radius: 10px;
-  padding: 10px;
-  /*position: 50%;*/
-  transition: all 3000ms;
-}
-.centerBtn:hover {
-  background-color: white;
-}
-.centerBtn:focus {
-  background-color: white;
-  font-weight: bold;
-}
-
-/*mobile first*/
-@media (max-width: 600px) {
-  body {
-    width: 80%;
+    background-color: black;
+    /* margin:10px auto;*/
+    color: yellow;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   }
-}
-
-@media (max-width: 800px) {
-  body {
-    width: 65%;
+  h1 {
+    margin: 10px auto;
   }
-}
-@media (max-width: 1000px) {
-  body {
+  p {
+    marign: 0px auto;
+  }
+  table {
+    border: 2px solid;
+  }
+  td {
     width: 100%;
+    border: 1px solid;
   }
-}
-
-.jediNameDiv {
-  font-size: 3rem;
-  transition: all 1000ms;
-}
-
-p + h1 {
-  transition: all 2000ms;
-  text-transform: uppercase;
-}
-
-p + h1:hover {
-  font-size: 4rem;
-}
-
-canvas {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
+  tr {
+    width: 500px;
+    border: 1px solid;
+  }
+  input {
+    width: 250px;
+    color: yellow;
+    background-color: black;
+    height: 32px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-align: right;
+    transition: all 2000ms;
+  }
+  input:hover {
+    background-color: #333;
+  }
+  input:focus {
+    background-color: yellow;
+    color: black;
+  }
+  .centerBtn {
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    /*position: 50%;*/
+    transition: all 3000ms;
+  }
+  .centerBtn:hover {
+    background-color: white;
+  }
+  .centerBtn:focus {
+    background-color: white;
+    font-weight: bold;
+  }
+  
+  /*mobile first*/
+  @media (max-width: 600px) {
+    body {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    body {
+      width: 65%;
+    }
+  }
+  @media (max-width: 1000px) {
+    body {
+      width: 100%;
+    }
+  }
+  
+  .jediNameDiv {
+  }
+  
+  p + h1 {
+    transition: all 10000ms;
+    text-transform: uppercase;
+  }
+  
+  p + h1:hover {
+    font-size: 4rem;
+  }
+  
